@@ -1,0 +1,15 @@
+
+
+
+
+useState : Quản lý state trong Component
+
+useParams : lấy tham số từ url trên browser
+
+useEffect : component didmMount ( lần đầu render)  , didUpdate ( cập nhật component), willUnmount ( khi component bị xoá khỏi layout )
+
+useSelector: lấy data từ redux về component
+
+useDispatch : đẩy action từ component lên redux
+
+action: 1 object chứa data cần đưa lên reducer để update state mới
