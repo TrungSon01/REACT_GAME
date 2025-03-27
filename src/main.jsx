@@ -8,13 +8,16 @@ import numberSlice from "./page/LearnReduxPage/redux/numberSlice";
 import userSlice from "./page/LoginPage/redux/userSlice";
 
 import shoeSlice from "./page/ExShoe/redux/shoeSlice";
-
+import xucXacSlice from "./page/TaiXiuPage/redux/xucXacSlice";
+import xucXacEOSlice from "./page/Even_Odd_Page/redux/xucXacEOSlice.jsx";
 let store = configureStore({
   reducer: {
     numberSlice: numberSlice,
     // movieSlice: numberSlice,
     userSlice: userSlice,
     shoeSlice: shoeSlice,
+    xucXacSlice: xucXacSlice,
+    xucXacEOSlice: xucXacEOSlice,
   },
 });
 createRoot(document.getElementById("root")).render(

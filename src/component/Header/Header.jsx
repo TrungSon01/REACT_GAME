@@ -22,6 +22,12 @@ export default function Header() {
       <Link to="/ex-shoe" className="btn btn-primary mx-2">
         Ex shoe
       </Link>
+      <Link to="/tai-xiu" className="btn btn-primary mx-2">
+        Tài xỉu
+      </Link>
+      <Link to="/even-odd" className="btn btn-primary mx-2">
+        Even Odd
+      </Link>
     </div>
   );
 }

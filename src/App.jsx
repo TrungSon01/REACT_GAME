@@ -9,7 +9,8 @@ import Header from "./component/Header/Header";
 import DetailPage from "./page/DetailPage/DetailPage";
 import LearnReduxPage from "./page/LearnReduxPage/LearnReduxPage";
 import ExShoe from "./page/ExShoe/ExShoe";
-
+import TaiXiuPage from "./page/TaiXiuPage/TaiXiuPage";
+import Even_Odd_Page from "./page/Even_Odd_Page/Even_Odd_Page";
 function App() {
   const [count, setCount] = useState(0);
 
@@ -22,6 +23,8 @@ function App() {
         <Route path="/detail/:idMovie" element={<DetailPage />} />
         <Route path="/redux" element={<LearnReduxPage />} />
         <Route path="ex-shoe" element={<ExShoe />} />
+        <Route path="/tai-xiu" element={<TaiXiuPage />} />
+        <Route path="/even-odd" element={<Even_Odd_Page />} />
       </Routes>
     </BrowserRouter>
   );

@@ -18,7 +18,6 @@ export default function HomePage() {
         console.log("result:", result.data.content);
         //   setState => render lại layout => layout sử dụng state mới =>hiển thị danh sách phim
         setMovies(result.data.content);
-        
       })
       .catch((err) => {
         console.log("err:", err);
